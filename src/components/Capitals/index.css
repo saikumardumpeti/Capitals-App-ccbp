@@ -1,0 +1,35 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.app-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.country {
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.options-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+.card-container h1 {
+  margin-top: 40px;
+}
